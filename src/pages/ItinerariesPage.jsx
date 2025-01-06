@@ -17,7 +17,6 @@ export const ItinerariesPage = () => {
 
   const handleSortSelect = (option) => {
     setSortOption(option);
-    // Aquí puedes agregar la lógica para ordenar la tabla según la opción seleccionada
   };
 
   const navigateToDetails = () => {
