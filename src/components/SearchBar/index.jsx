@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import searchIcon from '../../assets/icons/searchIcon.svg'; // Asegúrate de que la ruta sea correcta
+import searchIcon from '../../assets/icons/searchIcon.svg';
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');
