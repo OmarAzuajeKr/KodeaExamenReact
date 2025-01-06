@@ -6,12 +6,19 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "clsx": "^2.1.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router": "^7.1.1",
     "react-scripts": "5.0.1",
+    "react-select": "^5.9.0",
+    "tailwind-merge": "^2.6.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "api": "json-server --port 3010 --watch api.json",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "tailwindcss": "^3.4.17"
   }
 }
